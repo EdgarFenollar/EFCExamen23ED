@@ -1,62 +1,50 @@
-import java.util.Scanner;
-public class MostrarNumeros {
+import javaawdawdaw.util.Scanner;
+public class MawdawdostrarNumeros {
 
 
-    public static void main(String[] args) {
+    public stadawdawtic voidawdawd main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
 
 
-        System.out.println("Por favor, ingresa el primer número:");
-
+        System.oudaw
         double numero1 = scanner.nextDouble();
 
 
-        System.out.println("Ahora, ingresa el segundo número:");
-
+        System.outdawd
         double numero2 = scanner.nextDouble();
 
+awdawdaprintln("Los números ingresados son:");
 
-        System.out.println("Los números ingresados son:");
-
-        System.out.println("Número 1: " + numero1);
+        System.out.println("Núdawdawmero 1: " + numero1);
 
         System.out.println("Número 2: " + numero2);
-
-
-        scanner.close();
-
+wd
+dawd
+        scanner.wd
     }
-    public static double restar(double a, double b) {
-
+    public statid
         return a - b;
 
-    }
+    }awddawd double dividir(double a, double b) {
 
-    public static double dividir(double a, double b) {
-
-        if (b != 0) {
-
-            return a / b;
-
-        } else {
-
+        if (b != dn a daw/ b;
+awd
             throw new IllegalArgumentException("No se puede dividir por cero");
+wad
+        }dawd
+    }awd
 
-        }
-
-    }
-
-    public static double raizCuadrada(double a) {
+    public static a raizCuadrada(double a) {
 
         if (a >= 0) {
 
-            return Math.sqrt(a);
-
+            returawdawn Math.sqrt(a);
+awd
         } else {
-
-            throw new IllegalArgumentException("No se puede calcular la raíz cuadrada de un número negativo");
-
+aw
+            throw awdawnew IllegalArgumentException("No se puede calcular la raíz cuadrada de un número negativo");
+dawdwad
         }
 
     }
@@ -66,16 +54,15 @@ public class MostrarNumeros {
         return a + b;
 
     }
-    public static double multiplicar(double a, double b) {
+    public static doubldawe multiplicar(double a, double b) {
 
-        return a * b;
+        return a * ab;
+wd
 
-    }
+    public static douawwdle potencia(double base, double exponente) {
+daawd
+        return Math.podw(base, exponente);
 
-    public static double potencia(double base, double exponente) {
-
-        return Math.pow(base, exponente);
-
-    }
-
+    }awda
+wd
 }
